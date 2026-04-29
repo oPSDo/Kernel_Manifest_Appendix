@@ -11,13 +11,8 @@
     <linkfile dest="kernel_platform/build_with_bazel.py" src="build_with_bazel.py"/>
   </project>
   <project remote="origin" name="android_kernel_modules_and_devicetree_oppo_sm8650" path="./" revision="oppo/sm8650_b_16.0.0_find_x7_ultra"/>
-
   <project remote="clo-la" name="kernel/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" revision="d153b7ab4a4956198957e258d4f370e875c53059" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel">
     <linkfile dest="kernel_platform/build/prebuilts/kernel-build-tools" src="."/>
-  </project>
-  <project remote="clo-la" name="kernel/qcom" path="kernel_platform/msm-kernel" revision="84905449098b147a0fe8a13a9ab0485db25841ed" upstream="refs/heads/kernel.lnx.6.1.r2-rel">
-    <linkfile dest="kernel_platform/WORKSPACE" src="bazel.WORKSPACE"/>
-    <linkfile dest="kernel_platform/build_with_bazel.py" src="build_with_bazel.py"/>
   </project>
   <project remote="clo-la" name="kernel_platform/build/bazel_common_rules" path="kernel_platform/build/bazel_common_rules" revision="415b543d5e1d270a22f8c6ae9d848b3560472062" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel"/>
   <project remote="clo-la" name="kernel_platform/external/bazel-skylib" path="kernel_platform/external/bazel-skylib" revision="7fdbc462f5001b7e82f026aa90bd43c494e2a8d8" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel"/>
